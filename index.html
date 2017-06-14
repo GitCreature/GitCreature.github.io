@@ -5,6 +5,7 @@
 
 	<script src="jquery.js"></script>
 	<script type="text/javascript" src="jquery.maphilight.js"></script>
+	<link rel="import" href="people.html">
 </head>
 
 <body>	
@@ -15,84 +16,146 @@
 		<div class="main">
 		
 		<div class="image" >
-		<img class="map" id="auto" src="IMG_0281.jpg" usemap="#auto">
+		<img class="map" id="auto" src="IMG_0281.jpg" width="100%" usemap="#auto">
 		</div>
 		
 		<map name="auto">
 		<div class="RI-160002">
-			<area shape="poly" title="Баширов Иван &#013; Равильевич"  href="#" coords="1337,512, 1362,512, 1362,536, 1337,536 ">
-			<area shape="poly" title="Шехерин Павел &#013; Владимирович"  href="#" coords="1352,539, 1373,539, 1373,565, 1352,565">
-			<area shape="poly" title="Будевич Валерия &#013; Александровна"  href="#" coords="1321,560, 1345,560, 1345,588, 1321,588">
-			<area shape="poly" title="Зайнуллин Руслан &#013; Аснафович" href="#" coords="1289,532, 1318,532, 1318,558, 1289,558">
-			<area shape="poly" title="Лысенко Анна &#013; Сергеевна"  href="#" coords="1279,563, 1301,563, 1301,588, 1279,588">	
-			<area shape="poly" title="Щапин Дмитрий &#013; Сергеевич"  href="#" coords="1392,518, 1416,518, 1416,547, 1392,547">
-			<area shape="poly" title="Соломенникова Юлия &#013; Александровна"  href="#" coords="1244,506, 1264,506, 1264,534, 1244,534">
-			<area shape="poly" title="Кулаков Евгений &#013; Николаевич"  href="#" coords="1232,559, 1257,559, 1257,587, 1232,587">
-			<area shape="poly" title="Козлов Константин &#013; Сергеевич"  href="#" coords="1052,538, 1073,538, 1073,568, 1052,568">
-			<area shape="poly" title="Болоненко Артём &#013; Александрович"  href="#" coords="996,538, 1020,538, 1020,569, 996,569">
-			<area shape="poly" title="Беспалов Андрей &#013; Евгеньевич"  href="#" coords="703,533, 689,533, 683,523, 683,505, 705,505">
-			<area shape="poly" title="Брестер Денис &#013; Евгеньевич"  href="#" coords="831,506, 853,506, 853,538, 831,538">
-			<area shape="poly" title="Бритов Дмитрий &#013; Александрович"  href="#" coords="881,504, 907,504, 907,538, 881,538">
-			<area shape="poly" title="Мишин Александр &#013; Дмитриевич"  href="#" coords="1187,464, 1211,464, 1211,494, 1187,494">
-			<area shape="poly" title="Корда Станислав &#013; Олегович"  href="#" coords="710,510, 731,510, 731,538, 710,538">
-			<area shape="poly" title="Липатов Максим &#013; Владимирович"  href="#" coords="1039,493, 1062,493, 1062,525, 1039,525">
-			<area shape="poly" title="Поддубный Даниил &#013; Николаевич"  href="#" coords="806,506, 827,506, 827,537, 806,537">
-			<area shape="poly" title="Русинов Семен &#013; Валерьевич"  href="#" coords="1137,489, 1155,489, 1155,516, 1137,516">
-			<area shape="poly" title="Сурганов Владислав &#013; Витальевич"  href="#" coords="953,521, 971,521, 971,549, 953,549">
-			<area shape="poly" title="Шаймиева Анита &#013; Романовна"  href="#" coords="908,557, 930,557, 930,588, 908,588">
-			<area shape="poly" title="Яковлев Владислав &#013; Игоревич"  href="#" coords="764,503, 787,503, 787,531, 764,531">
-			<area shape="poly" title="Исаков Константин"  href="#" coords="1084,490, 1106,490, 1106,522, 1084,522">
-			<area shape="poly" title="Лев Локтионов"  href="#" coords="1189,491, 1213,491, 1213,523, 1189,523">
-			<area shape="poly" title="Вивтоненко Дмитрий"  href="#" coords="1103,541, 1127,541, 1127,573, 1103,573">
+			<area shape="poly" title="Баширов Иван &#013; РИ-160002"  href="#" coords="1337,512, 1362,512, 1362,536, 1337,536 ">
+			<area shape="poly" title="Шехерин Павел &#013; РИ-160002"  href="#" coords="1352,539, 1373,539, 1373,565, 1352,565">
+			<area shape="poly" title="Будевич Валерия &#013; РИ-160002"  href="#" coords="1321,560, 1345,560, 1345,588, 1321,588">
+			<area shape="poly" title="Зайнуллин Руслан &#013; РИ-160002" href="#" coords="1289,532, 1318,532, 1318,558, 1289,558">
+			<area shape="poly" title="Лысенко Анна &#013; РИ-160002"  href="#" coords="1279,563, 1301,563, 1301,588, 1279,588">	
+			<area shape="poly" title="Щапин Дмитрий &#013; РИ-160002"  href="#" coords="1392,518, 1416,518, 1416,547, 1392,547">
+			<area shape="poly" title="Соломенникова Юлия &#013; РИ-160002"  href="#" coords="1244,506, 1264,506, 1264,534, 1244,534">
+			<area shape="poly" title="Кулаков Евгений &#013; РИ-160002"  href="#" coords="1232,559, 1257,559, 1257,587, 1232,587">
+			<area shape="poly" title="Козлов Константин &#013; РИ-160002"  href="#" coords="1052,538, 1073,538, 1073,568, 1052,568">
+			<area shape="poly" title="Болоненко Артём &#013; РИ-160002"  href="#" coords="996,538, 1020,538, 1020,569, 996,569">
+			<area shape="poly" title="Беспалов Андрей &#013; РИ-160002"  href="#" coords="703,533, 689,533, 683,523, 683,505, 705,505">
+			<area shape="poly" title="Брестер Денис &#013; РИ-160002"  href="#" coords="831,506, 853,506, 853,538, 831,538">
+			<area shape="poly" title="Бритов Дмитрий &#013; РИ-160002"  href="#" coords="881,504, 907,504, 907,538, 881,538">
+			<area shape="poly" title="Мишин Александр &#013; РИ-160002"  href="#" coords="1187,464, 1211,464, 1211,494, 1187,494">
+			<area shape="poly" title="Корда Станислав &#013; РИ-160002"  href="#" coords="710,510, 731,510, 731,538, 710,538">
+			<area shape="poly" title="Липатов Максим &#013; РИ-160002"  href="#" coords="1039,493, 1062,493, 1062,525, 1039,525">
+			<area shape="poly" title="Поддубный Даниил &#013; РИ-160002"  href="#" coords="806,506, 827,506, 827,537, 806,537">
+			<area shape="poly" title="Русинов Семен &#013; РИ-160002"  href="#" coords="1137,489, 1155,489, 1155,516, 1137,516">
+			<area shape="poly" title="Сурганов Владислав &#013; РИ-160002"  href="#" coords="953,521, 971,521, 971,549, 953,549">
+			<area shape="poly" title="Шаймиева Анита &#013; РИ-160002"  href="#" coords="908,557, 930,557, 930,588, 908,588">
+			<area shape="poly" title="Яковлев Владислав &#013; РИ-160002"  href="#" coords="764,503, 787,503, 787,531, 764,531">
+			<area shape="poly" title="Исаков Константин &#013; РИ-160002"  href="#" coords="1084,490, 1106,490, 1106,522, 1084,522">
+			<area shape="poly" title="Лев Локтионов &#013; РИ-160002"  href="#" coords="1189,491, 1213,491, 1213,523, 1189,523">
+			<area shape="poly" title="Вивтоненко Дмитрий &#013; РИ-160002"  href="#" coords="1103,541, 1127,541, 1127,573, 1103,573">
 			
 		</div>
 		<div class="RI-160017">
-			<area shape="poly" title="Кельт Никита &#013; ?"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Шлегель Елена &#013; ?"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Зарубина Виктория &#013; Михайловна"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Лукина Дарья &#013; Андреевна"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Кельт Никита &#013; РИ-160017"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Шлегель Елена &#013; РИ-160017"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Зарубина Виктория &#013; РИ-160017"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Лукина Дарья &#013; РИ-160017"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
 			
 		</div>
 		<div class="RI-160024">
-			<area shape="poly" title="Артюховских Дмитрий &#013; Алексеевич"  href="#" coords="122,416, 142,416, 142,446, 122,446">
-			<area shape="poly" title="Бармин Алексей &#013; Юрьевич"  href="#" coords="244,264, 260,264, 260,290, 244,290">	
-			<area shape="poly" title="Будко Владислав &#013; Анатольевич"  href="#" coords="92,429, 114,429, 114,457, 92,457">
-			//<area shape="poly" title="Бурцева Ангелина &#013; Антоновна"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Гололобов Владислав &#013; Игоревич"  href="#" coords="188,261, 206,261, 206,289, 188,289">
-			//<area shape="poly" title="Дитковская Анна &#013; Сохрабовна"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Еремин Александр &#013; Павлович"  href="#" coords="124,273, 144,273, 144,297, 124,297">
-			//<area shape="poly" title="Закарьевич Магомед &#013; Асабалиевич"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Закусин Александр &#013; Владиславович"  href="#" coords="37,358, 57,358, 57,386, 37,386">
-			//<area shape="poly" title="Зиновьев Андрей &#013; Николаевич"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Зорин Клим &#013; Михайлович"  href="#" coords="1347,264, 1369,264, 1369,289, 1347,289">
-			<area shape="poly" title="Зоричева Лидия &#013; Евгеньевна"  href="#" coords="1333,278, 1351,278, 1351,305, 1333,305">
-			//<area shape="poly" title="Иванов Роман &#013; Борисович"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			//<area shape="poly" title="Игошев Роман &#013; Дмитриевич"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Инокентий Сергей &#013; Александрович"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Ковалев Егор &#013; Николаевич"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Коробко Сергей &#013; Алексеевич"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Кочешев Максим &#013; Владиславович"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Легостаев Илья &#013; Константинович"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Маяченко Ксения &#013; Сергеевна"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Михайлов Роман &#013; Витальевич"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Морозов Сергей &#013; Романович"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Мыльников Константин &#013; Евгеньевич"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Пономарев Павел &#013; Геннадьевич"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Редька Павел &#013; Николаевич"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Сажин Кирилл &#013; Алексеевич"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Семейкин Александр &#013; Романович"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Скорынин-Шадурский &#013; Никита Евгеньевич"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Тягнирядно Павел &#013; Андреевич"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Урубков Александр &#013; Викторович"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Фасхиев Радмир &#013; Денисович"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Феденёва Екатерина &#013; Сергеевна"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Хворенков Егор &#013; Маратович"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Шевцов Александр &#013; Юрьевич"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			<area shape="poly" title="Якимчук Роман &#013; Витальевич"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
-			<area shape="poly" title="Олонцев Алексей &#013; Вадимович"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
-			<area shape="poly" title="Халиков Саидмумин &#013; Хасанович"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
-			<area shape="poly" title="Азамат Уулу &#013; Марсель"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
-			
+			<area shape="poly" title="Артюховских Дмитрий &#013; РИ-160024"  href="#" coords="122,416, 142,416, 142,446, 122,446">
+			<area shape="poly" title="Бармин Алексей &#013; РИ-160024"  href="#" coords="244,264, 260,264, 260,290, 244,290">	
+			<area shape="poly" title="Будко Владислав &#013; РИ-160024"  href="#" coords="92,429, 114,429, 114,457, 92,457">
+			//<area shape="poly" title="Бурцева Ангелина &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Гололобов Владислав &#013; РИ-160024"  href="#" coords="188,261, 206,261, 206,289, 188,289">
+			//<area shape="poly" title="Дитковская Анна &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Еремин Александр &#013; РИ-160024"  href="#" coords="124,273, 144,273, 144,297, 124,297">
+			//<area shape="poly" title="Закарьевич Магомед &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Закусин Александр &#013; РИ-160024"  href="#" coords="37,358, 57,358, 57,386, 37,386">
+			//<area shape="poly" title="Зиновьев Андрей &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Зорин Клим &#013; РИ-160024"  href="#" coords="1347,264, 1369,264, 1369,289, 1347,289">
+			<area shape="poly" title="Зоричева Лидия &#013; РИ-160024"  href="#" coords="1333,278, 1351,278, 1351,305, 1333,305">
+			//<area shape="poly" title="Иванов Роман &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			//<area shape="poly" title="Игошев Роман &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Инокентий Сергей &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Ковалев Егор &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Коробко Сергей &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Кочешев Максим &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Легостаев Илья &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Маяченко Ксения &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Михайлов Роман &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Морозов Сергей &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Мыльников Константин &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Пономарев Павел &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Редька Павел &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Сажин Кирилл &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Семейкин Александр &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Никита Евгеньевич &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Тягнирядно Павел &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Урубков Александр &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Фасхиев Радмир &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Феденёва Екатерина &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Хворенков Егор &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Шевцов Александр &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+			<area shape="poly" title="Якимчук Роман &#013; РИ-160024"  href="#" coords="1375,552, 1398,552, 1398,582, 1375,582">
+			<area shape="poly" title="Олонцев Алексей &#013; РИ-160024"  href="#" coords="1190,561, 1210,561, 1210,590, 1190,590">
+			<area shape="poly" title="Халиков Саидмумин &#013; РИ-160024"  href="#" coords="1289,490, 1315,490, 1315,521, 1289,521">
+			<area shape="poly" title="Азамат Уулу &#013; РИ-160024"  href="#" coords="1431,533, 1456,533, 1456,565, 1431,565">	
+		</div>	
+		<div class="RI-160003">
+			<area shape="rect" alt="" title="Копалова Софья &#013; РИ-160003" coords="149,558,169,585" href="" target="" />
+			<area shape="rect" alt="" title="Сурова Алиса &#013; РИ-160003" coords="198,489,217,514" href="" target="" />
+			<area shape="rect" alt="" title="Копп Дмитрий &#013; РИ-160003" coords="168,437,186,461" href="" target="" />
+			<area shape="rect" alt="" title="Курбанов Захар &#013; РИ-160003" coords="201,456,221,485" href="" target="" />
+			<area shape="rect" alt="" title="Петров Михаил &#013; РИ-160003" coords="234,450,253,478" href="" target="" />
+			<area shape="rect" alt="" title="Муликбаев Владислав &#013; РИ-160003" coords="258,470,278,500" href="" target="" />
+			<area shape="rect" alt="" title="Михайлов Сергей &#013; РИ-160003" coords="305,444,328,469" href="" target="" />
+			<area shape="rect" alt="" title="Крыловская Нина &#013; РИ-160003" coords="431,483,449,509" href="" target="" />
+			<area shape="rect" alt="" title="Пискунов Семен &#013; РИ-160003" coords="483,470,505,492" href="" target="" />
+			<area shape="rect" alt="" title="Логинов Лев &#013; РИ-160003" coords="499,461,518,488" href="" target="" />
+			<area shape="rect" alt="" title="Семенов Никита &#013; РИ-160003" coords="527,471,550,499" href="" target="" />
+			<area shape="rect" alt="" title="Левадний Александр &#013; РИ-160003" coords="567,460,587,487" href="" target="" />
+			<area shape="rect" alt="" title="Григорьев Николай &#013; РИ-160003" coords="543,456,561,480" href="" target="" />
+			<area shape="rect" alt="" title="Сазонов Андрей &#013; РИ-160003" coords="601,446,623,474" href="" target="" />
+			<area shape="rect" alt="" title="Матюхин Сергей &#013; РИ-160003" coords="637,461,660,491" href="" target="" />
+			<area shape="rect" alt="" title="Алексеев Иван &#013; РИ-160003" coords="639,427,663,459" href="" target="" />
+			<area shape="rect" alt="" title="Чернобрисов Никита &#013; РИ-160003" coords="687,453,708,477" href="" target="" />
+			<area shape="rect" alt="" title="Зернова Мария &#013; РИ-160003" coords="697,480,716,504" href="" target="" />
+			<area shape="rect" alt="" title="Почтарев Олег &#013; РИ-160003" coords="742,459,762,487" href="" target="" />
+			<area shape="rect" alt="" title="Щукина Вероника &#013; РИ-160003" coords="740,490,760,516" href="" target="" />
+			<area shape="rect" alt="" title="Кретов Сергей &#013; РИ-160003" coords="780,456,801,486" href="" target="" />
+			<area shape="rect" alt="" title="Муфазалов Рустам &#013; РИ-160003" coords="884,466,908,495" href="" target="" />
+			<area shape="rect" alt="" title="Цыганов Иван &#013; РИ-160003" coords="938,472,959,500" href="" target="" />
+			<area shape="rect" alt="" title="Осипова Анастасия &#013; РИ-160003" coords="381,467,402,480" href="" target="" />
+			<area shape="rect" alt="" title="Лаптев Артем &#013; РИ-160003" coords="183,505,203,535" href="" target="" />
+			<area shape="rect" alt="" title="Михайлов Александр &#013; РИ-160003" coords="154,515,176,544" href="" target="" />
+		</div>
+		<div class="RI-160007">
+			<area shape="rect" alt="" title="Стариков Данила &#013; РИ-160007" coords="1262,409,1281,434" href="" target="" />
+			<area shape="rect" alt="" title="Титов Михаил &#013; РИ-160007" coords="1223,408,1241,435" href="" target="" />
+			<area shape="rect" alt="" title="Путова Елена &#013; РИ-160007" coords="1243,429,1263,456" href="" target="" />
+			<area shape="rect" alt="" title="Рогожин Виталий &#013; РИ-160007" coords="1159,429,1180,460" href="" target="" />
+			<area shape="rect" alt="" title="Бобылев Кирилл &#013; РИ-160007" coords="1211,433,1231,461" href="" target="" />
+			<area shape="rect" alt="" title="Севастьянова Наталья &#013; РИ-160007" coords="1106,476,1121,505" href="" target="" />
+			<area shape="rect" alt="" title="Филимонова Юлия &#013; РИ-160007" coords="1118,448,1139,472" href="" target="" />
+			<area shape="rect" alt="" title="Бузаев Андрей &#013; РИ-160007" coords="1111,418,1135,447" href="" target="" />
+			<area shape="rect" alt="" title="Юшков Владислав &#013; РИ-160007" coords="1137,386,1160,415" href="" target="" />
+			<area shape="rect" alt="" title="Сычев Денис &#013; РИ-160007" coords="1081,401,1098,430" href="" target="" />
+			<area shape="rect" alt="" title="Сорокин Вячеслав &#013; РИ-160007" coords="1177,394,1197,425" href="" target="" />
+			<area shape="rect" alt="" title="Семушкин Ярослав &#013; РИ-160007" coords="1321,418,1341,444" href="" target="" />
+			<area shape="rect" alt="" title="Тимофеев Дмитрий &#013; РИ-160007" coords="1343,407,1362,432" href="" target="" />
+			<area shape="rect" alt="" title="Колясников Андрей &#013; РИ-160007" coords="1278,424,1299,448" href="" target="" />
+		</div>
+		<div class="RI-160009">
+			<area shape="rect" alt="" title="Пинженин Денис &#013; РИ-160009" coords="163,334,182,363" href="" target="" />
+			<area shape="rect" alt="" title="Молчков Денис &#013; РИ-160009" coords="179,316,197,344" href="" target="" />
+			<area shape="rect" alt="" title="Тотменин Андрей &#013; РИ-160009" coords="257,320,275,348" href="" target="" />
+			<area shape="rect" alt="" title="Стук Кирилл &#013; РИ-160009" coords="336,316,356,345" href="" target="" />
+			<area shape="rect" alt="" title="Волков Наиль &#013; РИ-160009" coords="448,320,470,350" href="" target="" />
+			<area shape="rect" alt="" title="Вахрушев Глеб &#013; РИ-160009" coords="480,331,500,360" href="" target="" />
+			<area shape="rect" alt="" title="Ащеулов Никита &#013; РИ-160009" coords="517,309,540,341" href="" target="" />
+			<area shape="rect" alt="" title="Никотин Александр &#013; РИ-160009" coords="582,339,600,365" href="" target="" />
+			<area shape="rect" alt="" title="Голубев Максим &#013; РИ-160009" coords="558,339,578,363" href="" target="" />
+			<area shape="rect" alt="" title="Мраморов Никита &#013; РИ-160009" coords="401,326,421,356" href="" target="" />
+			<area shape="rect" alt="" title="Зверев Владислав &#013; РИ-160009" coords="375,333,396,361" href="" target="" />
+			<area shape="rect" alt="" title="Чичин Роман &#013; РИ-160009" coords="313,349,332,377" href="" target="" />
+			<area shape="rect" alt="" title="Кашевский Николай &#013; РИ-160009" coords="287,329,305,353" href="" target="" />
+			<area shape="rect" alt="" title="Шаронов Михаил &#013; РИ-160009" coords="269,356,292,380" href="" target="" />
+			<area shape="rect" alt="" title="Халили Софья &#013; РИ-160009" coords="230,361,249,385" href="" target="" />
+			<area shape="rect" alt="" title="Мартынова Мария &#013; РИ-160009" coords="389,371,412,386" href="" target="" />
+			<area shape="rect" alt="" title="Бирюкова Маргарита &#013; РИ-160009" coords="431,358,447,384" href="" target="" />
 		</div>
 	<div id="Other">
 		<area shape="poly" alt="" title="1" coords="82,252, 104,252, 104,283, 82,283" href="" >
@@ -171,24 +234,22 @@
 		<area shape="rect" alt="" title="74" coords="60,396,85,426" href="" target="" />
 		<area shape="rect" alt="" title="75" coords="107,376,126,404" href="" target="" />
 		<area shape="rect" alt="" title="76" coords="131,332,149,357" href="" target="" />
-		<area shape="rect" alt="" title="77" coords="163,334,182,363" href="" target="" />
-		<area shape="rect" alt="" title="78" coords="179,316,197,344" href="" target="" />
+		
 		<area shape="rect" alt="" title="79" coords="202,322,221,350" href="" target="" />
 		<area shape="rect" alt="" title="80" coords="233,330,251,359" href="" target="" />
-		<area shape="rect" alt="" title="81" coords="257,320,275,348" href="" target="" />
+		
 		<area shape="rect" alt="" title="82" coords="258,281,274,307" href="" target="" />
 		<area shape="rect" alt="" title="83" coords="275,304,294,328" href="" target="" />
 		<area shape="rect" alt="" title="84" coords="308,302,327,330" href="" target="" />
 		<area shape="rect" alt="" title="85" coords="300,286,318,309" href="" target="" />
 		<area shape="rect" alt="" title="86" coords="330,292,348,315" href="" target="" />
-		<area shape="rect" alt="" title="87" coords="336,316,356,345" href="" target="" />
+		
 		<area shape="rect" alt="" title="88" coords="358,297,377,326" href="" target="" />
 		<area shape="rect" alt="" title="89" coords="396,292,414,320" href="" target="" />
 		<area shape="rect" alt="" title="90" coords="426,311,446,333" href="" target="" />
-		<area shape="rect" alt="" title="91" coords="448,320,470,350" href="" target="" />
-		<area shape="rect" alt="" title="92" coords="480,331,500,360" href="" target="" />
+		
 		<area shape="rect" alt="" title="93" coords="490,308,512,333" href="" target="" />
-		<area shape="rect" alt="" title="94" coords="517,309,540,341" href="" target="" />
+		
 		<area shape="rect" alt="" title="95" coords="534,319,553,344" href="" target="" />
 		<area shape="rect" alt="" title="96" coords="576,314,595,337" href="" target="" />
 		<area shape="rect" alt="" title="97" coords="603,308,618,335" href="" target="" />
@@ -253,15 +314,9 @@
 		<area shape="poly" alt="" title="156" coords="663,340,671,361,678,361,680,340,672,339" href="" target="" />
 		<area shape="rect" alt="" title="157" coords="649,344,670,372" href="" target="" />
 		<area shape="rect" alt="" title="158" coords="619,349,635,376" href="" target="" />
-		<area shape="rect" alt="" title="159" coords="582,339,600,365" href="" target="" />
-		<area shape="rect" alt="" title="160" coords="558,339,578,363" href="" target="" />
-		<area shape="rect" alt="" title="161" coords="401,326,421,356" href="" target="" />
-		<area shape="rect" alt="" title="162" coords="375,333,396,361" href="" target="" />
+		
 		<area shape="rect" alt="" title="163" coords="341,353,365,383" href="" target="" />
-		<area shape="rect" alt="" title="164" coords="313,349,332,377" href="" target="" />
-		<area shape="rect" alt="" title="165" coords="287,329,305,353" href="" target="" />
-		<area shape="rect" alt="" title="166" coords="269,356,292,380" href="" target="" />
-		<area shape="rect" alt="" title="167" coords="230,361,249,385" href="" target="" />
+		
 		<area shape="rect" alt="" title="168" coords="190,362,211,390" href="" target="" />
 		<area shape="rect" alt="" title="169" coords="130,373,149,393" href="" target="" />
 		<area shape="rect" alt="" title="170" coords="165,378,185,408" href="" target="" />
@@ -274,10 +329,10 @@
 		<area shape="rect" alt="" title="177" coords="315,384,335,410" href="" target="" />
 		<area shape="rect" alt="" title="178" coords="335,397,354,426" href="" target="" />
 		<area shape="rect" alt="" title="179" coords="361,387,382,417" href="" target="" />
-		<area shape="rect" alt="" title="180" coords="389,371,412,386" href="" target="" />
+		
 		<area shape="rect" alt="" title="181" coords="385,386,408,415" href="" target="" />
 		<area shape="rect" alt="" title="182" coords="416,367,434,392" href="" target="" />
-		<area shape="rect" alt="" title="183" coords="431,358,447,384" href="" target="" />
+		
 		<area shape="rect" alt="" title="184" coords="457,353,477,384" href="" target="" />
 		<area shape="rect" alt="" title="185" coords="484,365,505,397" href="" target="" />
 		<area shape="rect" alt="" title="186" coords="525,364,546,393" href="" target="" />
@@ -295,16 +350,16 @@
 		<area shape="rect" alt="" title="198" coords="1063,372,1080,398" href="" target="" />
 		<area shape="rect" alt="" title="199" coords="1080,371,1099,397" href="" target="" />
 		<area shape="rect" alt="" title="200" coords="1330,386,1351,411" href="" target="" />
-		<area shape="rect" alt="" title="201" coords="1343,407,1362,432" href="" target="" />
+		
 		<area shape="rect" alt="" title="202" coords="1298,394,1319,418" href="" target="" />
-		<area shape="rect" alt="" title="203" coords="1321,418,1341,444" href="" target="" />
+		
 		<area shape="rect" alt="" title="204" coords="1247,379,1267,406" href="" target="" />
 		<area shape="rect" alt="" title="205" coords="1203,390,1222,414" href="" target="" />
-		<area shape="rect" alt="" title="206" coords="1177,394,1197,425" href="" target="" />
+		
 		<area shape="rect" alt="" title="207" coords="1161,392,1179,417" href="" target="" />
-		<area shape="rect" alt="" title="208" coords="1137,386,1160,415" href="" target="" />
+		
 		<area shape="rect" alt="" title="209" coords="1110,387,1130,410" href="" target="" />
-		<area shape="rect" alt="" title="210" coords="1081,401,1098,430" href="" target="" />
+		
 		<area shape="rect" alt="" title="211" coords="1024,402,1043,424" href="" target="" />
 		<area shape="rect" alt="" title="212" coords="941,394,960,420" href="" target="" />
 		<area shape="rect" alt="" title="213" coords="912,398,934,427" href="" target="" />
@@ -316,7 +371,7 @@
 		<area shape="rect" alt="" title="219" coords="698,394,718,418" href="" target="" />
 		<area shape="rect" alt="" title="220" coords="664,389,683,415" href="" target="" />
 		<area shape="rect" alt="" title="221" coords="655,411,677,439" href="" target="" />
-		<area shape="rect" alt="" title="222" coords="639,427,663,459" href="" target="" />
+		
 		<area shape="rect" alt="" title="223" coords="597,400,614,429" href="" target="" />
 		<area shape="rect" alt="" title="224" coords="612,422,629,447" href="" target="" />
 		<area shape="rect" alt="" title="225" coords="576,429,596,458" href="" target="" />
@@ -334,23 +389,23 @@
 		<area shape="rect" alt="" title="237" coords="266,413,283,437" href="" target="" />
 		<area shape="rect" alt="" title="238" coords="273,438,292,466" href="" target="" />
 		<area shape="rect" alt="" title="239" coords="289,429,304,454" href="" target="" />
-		<area shape="rect" alt="" title="240" coords="168,437,186,461" href="" target="" />
+		
 		<area shape="rect" alt="" title="241" coords="187,440,200,463" href="" target="" />
-		<area shape="rect" alt="" title="242" coords="201,456,221,485" href="" target="" />
-		<area shape="rect" alt="" title="243" coords="234,450,253,478" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="244" coords="233,432,249,449" href="" target="" />
 		<area shape="rect" alt="" title="245" coords="216,436,235,466" href="" target="" />
-		<area shape="rect" alt="" title="246" coords="305,444,328,469" href="" target="" />
+		
 		<area shape="rect" alt="" title="247" coords="331,434,348,459" href="" target="" />
 		<area shape="rect" alt="" title="248" coords="344,452,364,482" href="" target="" />
 		<area shape="rect" alt="" title="249" coords="386,445,406,468" href="" target="" />
-		<area shape="rect" alt="" title="250" coords="381,467,402,480" href="" target="" />
+		
 		<area shape="rect" alt="" title="251" coords="378,482,401,507" href="" target="" />
 		<area shape="rect" alt="" title="252" coords="410,467,431,494" href="" target="" />
 		<area shape="rect" alt="" title="253" coords="439,434,460,461" href="" target="" />
 		<area shape="rect" alt="" title="254" coords="493,430,515,456" href="" target="" />
 		<area shape="rect" alt="" title="255" coords="525,432,545,456" href="" target="" />
-		<area shape="rect" alt="" title="256" coords="601,446,623,474" href="" target="" />
+		
 		<area shape="rect" alt="" title="257" coords="695,426,715,452" href="" target="" />
 		<area shape="rect" alt="" title="258" coords="717,425,735,454" href="" target="" />
 		<area shape="rect" alt="" title="259" coords="738,421,757,448" href="" target="" />
@@ -369,14 +424,12 @@
 		<area shape="rect" alt="" title="272" coords="1016,426,1037,454" href="" target="" />
 		<area shape="rect" alt="" title="273" coords="1044,413,1064,440" href="" target="" />
 		<area shape="rect" alt="" title="274" coords="1066,424,1088,450" href="" target="" />
-		<area shape="rect" alt="" title="275" coords="1111,418,1135,447" href="" target="" />
-		<area shape="rect" alt="" title="276" coords="1159,429,1180,460" href="" target="" />
-		<area shape="rect" alt="" title="277" coords="1223,408,1241,435" href="" target="" />
-		<area shape="rect" alt="" title="278" coords="1211,433,1231,461" href="" target="" />
-		<area shape="rect" alt="" title="279" coords="1243,429,1263,456" href="" target="" />
-		<area shape="rect" alt="" title="280" coords="1262,409,1281,434" href="" target="" />
+		
+		
+		
+		
 		<area shape="rect" alt="" title="281" coords="1270,444,1290,473" href="" target="" />
-		<area shape="rect" alt="" title="282" coords="1278,424,1299,448" href="" target="" />
+		
 		<area shape="rect" alt="" title="283" coords="1342,435,1362,464" href="" target="" />
 		<area shape="rect" alt="" title="284" coords="1293,462,1311,488" href="" target="" />
 		<area shape="rect" alt="" title="285" coords="1319,460,1341,492" href="" target="" />
@@ -388,12 +441,12 @@
 		<area shape="rect" alt="" title="291" coords="1213,467,1235,495" href="" target="" />
 		<area shape="rect" alt="" title="292" coords="1187,463,1210,492" href="" target="" />
 		<area shape="rect" alt="" title="293" coords="1156,463,1176,490" href="" target="" />
-		<area shape="rect" alt="" title="294" coords="1118,448,1139,472" href="" target="" />
+		
 		<area shape="rect" alt="" title="295" coords="1037,444,1059,475" href="" target="" />
 		<area shape="rect" alt="" title="296" coords="1015,470,1038,495" href="" target="" />
 		<area shape="rect" alt="" title="297" coords="1013,496,1034,528" href="" target="" />
 		<area shape="rect" alt="" title="298" coords="1061,477,1081,507" href="" target="" />
-		<area shape="rect" alt="" title="299" coords="1106,476,1121,505" href="" target="" />
+		
 		<area shape="rect" alt="" title="300" coords="1122,475,1139,501" href="" target="" />
 		<area shape="rect" alt="" title="301" coords="1223,532,1243,559" href="" target="" />
 		<area shape="rect" alt="" title="302" coords="1184,532,1207,560" href="" target="" />
@@ -402,42 +455,42 @@
 		<area shape="rect" alt="" title="305" coords="1140,515,1164,547" href="" target="" />
 		<area shape="rect" alt="" title="306" coords="1077,530,1097,559" href="" target="" />
 		<area shape="rect" alt="" title="307" coords="962,490,983,520" href="" target="" />
-		<area shape="rect" alt="" title="308" coords="938,472,959,500" href="" target="" />
+		
 		<area shape="rect" alt="" title="309" coords="923,510,946,541" href="" target="" />
 		<area shape="rect" alt="" title="310" coords="956,552,977,581" href="" target="" />
-		<area shape="rect" alt="" title="311" coords="884,466,908,495" href="" target="" />
+		
 		<area shape="rect" alt="" title="312" coords="838,455,860,482" href="" target="" />
 		<area shape="rect" alt="" title="313" coords="862,484,882,513" href="" target="" />
 		<area shape="rect" alt="" title="314" coords="796,477,818,505" href="" target="" />
-		<area shape="rect" alt="" title="315" coords="780,456,801,486" href="" target="" />
+		
 		<area shape="rect" alt="" title="316" coords="761,449,779,477" href="" target="" />
-		<area shape="rect" alt="" title="317" coords="742,459,762,487" href="" target="" />
-		<area shape="rect" alt="" title="318" coords="687,453,708,477" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="319" coords="858,522,883,553" href="" target="" />
 		<area shape="rect" alt="" title="320" coords="772,528,795,559" href="" target="" />
-		<area shape="rect" alt="" title="321" coords="740,490,760,516" href="" target="" />
+		
 		<area shape="rect" alt="" title="322" coords="708,540,728,569" href="" target="" />
-		<area shape="rect" alt="" title="323" coords="697,480,716,504" href="" target="" />
+		
 		<area shape="rect" alt="" title="324" coords="671,518,690,548" href="" target="" />
 		<area shape="rect" alt="" title="325" coords="643,506,663,536" href="" target="" />
 		<area shape="rect" alt="" title="326" coords="617,534,639,564" href="" target="" />
 		<area shape="rect" alt="" title="327" coords="623,486,643,515" href="" target="" />
-		<area shape="rect" alt="" title="328" coords="637,461,660,491" href="" target="" />
+		
 		<area shape="rect" alt="" title="329" coords="595,495,616,524" href="" target="" />
-		<area shape="rect" alt="" title="330" coords="567,460,587,487" href="" target="" />
+		
 		<area shape="rect" alt="" title="331" coords="573,539,595,567" href="" target="" />
 		<area shape="rect" alt="" title="332" coords="549,510,569,540" href="" target="" />
 		<area shape="rect" alt="" title="333" coords="528,524,550,553" href="" target="" />
-		<area shape="rect" alt="" title="334" coords="543,456,561,480" href="" target="" />
-		<area shape="rect" alt="" title="335" coords="527,471,550,499" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="336" coords="493,530,515,558" href="" target="" />
 		<area shape="rect" alt="" title="337" coords="515,501,534,531" href="" target="" />
 		<area shape="rect" alt="" title="338" coords="470,512,489,541" href="" target="" />
 		<area shape="rect" alt="" title="339" coords="485,493,503,522" href="" target="" />
-		<area shape="rect" alt="" title="340" coords="483,470,505,492" href="" target="" />
-		<area shape="rect" alt="" title="341" coords="499,461,518,488" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="342" coords="448,464,468,491" href="" target="" />
-		<area shape="rect" alt="" title="343" coords="431,483,449,509" href="" target="" />
+		
 		<area shape="rect" alt="" title="344" coords="405,496,424,527" href="" target="" />
 		<area shape="rect" alt="" title="345" coords="427,521,446,549" href="" target="" />
 		<area shape="rect" alt="" title="346" coords="451,554,471,584" href="" target="" />
@@ -452,20 +505,20 @@
 		<area shape="rect" alt="" title="355" coords="299,524,319,546" href="" target="" />
 		<area shape="rect" alt="" title="356" coords="279,545,299,575" href="" target="" />
 		<area shape="rect" alt="" title="357" coords="238,484,260,513" href="" target="" />
-		<area shape="rect" alt="" title="358" coords="258,470,278,500" href="" target="" />
+		
 		<area shape="rect" alt="" title="359" coords="253,520,275,548" href="" target="" />
 		<area shape="rect" alt="" title="360" coords="238,547,259,577" href="" target="" />
 		<area shape="rect" alt="" title="361" coords="218,522,237,549" href="" target="" />
 		<area shape="rect" alt="" title="362" coords="194,536,218,562" href="" target="" />
-		<area shape="rect" alt="" title="363" coords="183,505,203,535" href="" target="" />
-		<area shape="rect" alt="" title="364" coords="198,489,217,514" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="365" coords="127,482,147,510" href="" target="" />
 		<area shape="rect" alt="" title="366" coords="97,505,122,528" href="" target="" />
 		<area shape="rect" alt="" title="367" coords="93,526,114,557" href="" target="" />
 		<area shape="rect" alt="" title="368" coords="56,505,80,532" href="" target="" />
 		<area shape="rect" alt="" title="369" coords="37,531,63,562" href="" target="" />
-		<area shape="rect" alt="" title="370" coords="154,515,176,544" href="" target="" />
-		<area shape="rect" alt="" title="371" coords="149,558,169,585" href="" target="" />
+		
+		
 		<area shape="rect" alt="" title="372" coords="181,584,202,617" href="" target="" />
 		<area shape="rect" alt="" title="373" coords="223,600,250,634" href="" target="" />
 		<area shape="rect" alt="" title="374" coords="280,594,308,626" href="" target="" />
